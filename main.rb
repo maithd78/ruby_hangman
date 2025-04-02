@@ -19,4 +19,4 @@ puts Time.now
 
 # how many classes? 2 is enough for hangman as it is very simple
 # Game and Player
-# maybe a class for drawing the hangman?
+# maybe a class for drawing the hangmangi?
