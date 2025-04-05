@@ -24,5 +24,6 @@ puts Time.now
 # Game and Player
 # maybe a class for drawing the hangmangi?
 
+puts 'lets play hangman'
 game = Game.new
 game.play_game
