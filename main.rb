@@ -1,4 +1,7 @@
+require_relative 'libs/dictionary'
+require_relative 'libs/game'
 puts Time.now
+
 # when game.new is called get a word 5~12 letters long from the dictionary and assign it as the secret code.
 # the secret will be cloned into an array.
 # create a display_code with its size set to the lenght of the secret code
@@ -20,3 +23,6 @@ puts Time.now
 # how many classes? 2 is enough for hangman as it is very simple
 # Game and Player
 # maybe a class for drawing the hangmangi?
+
+game = Game.new
+game.play_game
